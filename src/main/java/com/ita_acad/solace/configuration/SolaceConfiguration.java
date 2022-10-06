@@ -10,7 +10,7 @@ import javax.jms.Session;
 @Configuration
 public class SolaceConfiguration {
 
-
+//sending and receiving
     @Bean
     public SolConnectionFactory solConnectionFactoryReceived(){
         try {
